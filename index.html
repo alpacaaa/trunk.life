@@ -9,14 +9,15 @@
   </head>
   <body>
     <style>
-      .text-huge { font-size: 4rem; }
+      @media(min-width: 600px) { .text-huge { font-size: 4rem; } }
     </style>
     <div class="bg-white h-full border-green-300 border-t-4">
       <div class="container mx-auto px-5 pt-16 text-center antialiased">
-        <h1 class="font-mono font-semibold text-huge">
-          <span class="text-green-300">#</span>trunklife</h1>
+        <h1 class="font-mono font-semibold text-5xl text-huge">
+          <span class="text-green-300">#</span>trunklife
+        </h1>
        
-        <div class="mt-5 text-2xl font-">
+        <div class="mt-5 text-xl md:text-2xl">
           <p>Stick that code under a feature flag.</p>
           <p>PRs are for cowards.</p>
         </div>
